@@ -19,6 +19,10 @@ public class DrivableTrader extends  Trader<Drivable>{
         super(inventory, wishlist, money);
     }
 
+    public DrivableTrader(int a){
+        super(a);
+    }
+
     @Override
     public void addToWishlist(Drivable item) {
         super.addToWishlist(item);
